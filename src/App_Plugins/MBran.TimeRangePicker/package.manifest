@@ -1,0 +1,17 @@
+﻿{
+    'propertyEditors' : [
+        {
+            alias: 'MBran.TimeRangePicker',
+            name: 'Time Range Picker',
+            editor: {
+                view:'~/App_Plugins/MBran.TimeRangePicker/Views/timeRangePicker.editor.html'
+            }
+        }
+    ],
+    'javascript' : [
+        '~/App_Plugins/MBran.TimeRangePicker/Controllers/timeRangePicker.editor.js'
+    ],
+	'css' : [
+        '~/App_Plugins/MBran.TimeRangePicker/Css/timeRangePicker.css'
+    ]
+}

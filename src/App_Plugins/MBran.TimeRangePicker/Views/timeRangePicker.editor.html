@@ -1,0 +1,27 @@
+﻿<div ng-controller="MBran.TimeRangePicker" class="time-range-picker">
+    <div class="start-time timings">
+        <label for="StartHour">From: </label>
+        <select name="StartHour" id="StartHour"
+                ng-options="hour for hour in times.hours"
+                ng-model="model.value.start.hour"></select>
+        <select name="StartMinutes" id="StartMinutes"
+                ng-options="minute for minute in times.minutes"
+                ng-model="model.value.start.minute"></select>
+        <select name="StartMeridian" id="StartMeridian"
+                ng-options="meridian for meridian in times.meridian"
+                ng-model="model.value.start.meridian"></select>
+    </div>
+
+    <div class="end-time timings">
+        <label for="EndHour">To: </label>
+        <select name="EndHour" id="EndHour"
+                ng-options="hour for hour in times.hours"
+                ng-model="model.value.end.hour"></select>
+        <select name="EndMinutes" id="EndMinutes"
+                ng-options="minute for minute in times.minutes"
+                ng-model="model.value.end.minute"></select>
+        <select name="EndMeridian" id="EndMeridian"
+                ng-options="meridian for meridian in times.meridian"
+                ng-model="model.value.end.meridian"></select>
+    </div>
+</div>
