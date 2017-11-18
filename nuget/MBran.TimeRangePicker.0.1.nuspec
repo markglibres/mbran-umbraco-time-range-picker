@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>MBran.TimeRangePicker</id>
+        <version>0.1</version>
+        <title>MBran's Umbraco TimeRange Picker Data Type</title>
+        <authors>Mark Gil Libres</authors>
+        <owners>Mark Gil Libres</owners>
+        <licenseUrl>https://github.com/markglibres/mbran-umbraco-time-range-picker/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/markglibres/mbran-umbraco-time-range-picker</projectUrl>
+        <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Time Range Picker for Umbraco 7</description>
+        <copyright>Copyright 2017</copyright>
+        <tags>Umbraco TimeRangePicker MBran</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.2">
+                <dependency id="UmbracoCms.Core" version="7.7.6" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\App_Plugins\MBran.TimeRangePicker\Controllers\timeRangePicker.editor.js" target="content\net452\App_Plugins\MBran.TimeRangePicker\Controllers\timeRangePicker.editor.js" />
+        <file src="..\src\App_Plugins\MBran.TimeRangePicker\Css\timeRangePicker.css" target="content\net452\App_Plugins\MBran.TimeRangePicker\Css\timeRangePicker.css" />
+        <file src="..\src\App_Plugins\MBran.TimeRangePicker\Views\timeRangePicker.editor.html" target="content\net452\App_Plugins\MBran.TimeRangePicker\Views\timeRangePicker.editor.html" />
+        <file src="..\src\App_Plugins\MBran.TimeRangePicker\package.manifest" target="content\net452\App_Plugins\MBran.TimeRangePicker\package.manifest" />
+        <file src="..\src\bin\Debug\MBran.TimeRangePicker.dll" target="lib\net452\MBran.TimeRangePicker.dll" />
+    </files>
+</package>
